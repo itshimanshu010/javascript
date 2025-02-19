@@ -49,3 +49,44 @@ let numberGoal = 33
 let stringNumberGoal = String(numberGoal);
 console.log(typeof stringNumberGoal)
 console.log(stringNumberGoal)
+
+
+// Operations
+
+let value = 5
+let negValue= -value;
+console.log(negValue) //-5
+
+let str1 = "Hey "
+let str2 = "Himanshu"
+// You can only add , but not subtract a string
+
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2); //12
+console.log(1 + "2"); //12
+console.log("1" + "2"); //12
+console.log("1" + 2 + 2); //122
+console.log(1 + 2 + "2"); //32
+
+// So here when the first one is string then all other should also be consider as string
+//when first one string is not string then it perform the operation then be string if there is any string
+
+console.log(+true) //1 ,true is boolean so there is not increment
+//  console.log(true+) //not possible
+
+let num1,num2,num3;
+num1 = num2 = num3 = 2 + 2;
+console.log(num1,num2,num3) //4 4 4
+
+let counterPoint = 50
+counterPoint++; //postfix
+console.log(counterPoint) //51
+
+
+let counterPoint1 = 50
+++counterPoint1; //prefix
+console.log(counterPoint1) //51
+
+console.log(`So this ${counterPoint} What we talking`)
